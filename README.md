@@ -4,6 +4,8 @@ This GitHub Action executes [phpinsights](https://github.com/nunomaduro/phpinsi
 
 You can optionally define minimum values for Insights categories. If the value falls below your given threshold, the run fails.
 
+If you're using Laravel, there's also [a framework specific Action](https://github.com/stefanzweifel/laravel-phpinsights-action) available.
+
 ### Usage
 
 This Action doesn't install composer dependencies on it's own and doesn't contain a `phpinsights` binary.
